@@ -56,7 +56,7 @@ const Header = () => {
 }
 
 const Message = ({ from, children }: { from: string, children: React.ReactNode }) => 
-  <div className={`${style.message} ${from == "user" ? style.parker : ""}`}>
+  <div className={`${style.message} ${from == "user" ? style.user : ""}`}>
     {children}
   </div>
 
